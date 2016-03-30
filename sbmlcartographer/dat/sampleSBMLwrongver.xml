@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version3" version="3" level="2">
+	<model id="aae00010" name="aae00010">
+		<listOfCompartments>
+			<compartment id="default" name="default" size="1.0" />
+			<compartment id="uVol" name="uVol" size="1.0" outside="default" />
+		</listOfCompartments>
+		<listOfSpecies>
+			<species id="E1_space_2_space_1_space_3" name="1.2.1.3" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E1_space_8_space_1_space_4" name="1.8.1.4" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E1_space_1_space_1_space_1" name="1.1.1.1" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E5_space_3_space_1_space_1" name="5.3.1.1" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E5_space_3_space_1_space_9" name="5.3.1.9" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E4_space_1_space_2_space_13" name="4.1.2.13" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E2_space_7_space_2_space_3" name="2.7.2.3" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E5_space_4_space_2_space_1" name="5.4.2.1" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E4_space_2_space_1_space_11" name="4.2.1.11" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E1_space_2_space_1_space_12" name="1.2.1.12" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E2_space_7_space_1_space_11" name="2.7.1.11" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E6_space_2_space_1_space_1" name="6.2.1.1" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="H2O" name="H2O" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="ATP" name="ATP" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="NAD_plus_" name="NAD+" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="NADH" name="NADH" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="ADP" name="ADP" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Orthophosphate" name="Orthophosphate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="CoA" name="CoA" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Pyrophosphate" name="Pyrophosphate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="AMP" name="AMP" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Acetyl_minus_CoA" name="Acetyl-CoA" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Acetate" name="Acetate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Phosphoenolpyruvate" name="Phosphoenolpyruvate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="H_plus_" name="H+" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Acetaldehyde" name="Acetaldehyde" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Glycerone_space_phosphate" name="Glycerone phosphate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal" name="(2R)-2-Hydroxy-3-(phosphonooxy)-propanal" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_space_3_minus_Phospho_minus_D_minus_glycerate" name="3-Phospho-D-glycerate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_space_3_minus_Phospho_minus_D_minus_glyceroyl_space_phosphate" name="3-Phospho-D-glyceroyl phosphate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Ethanol" name="Ethanol" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_space_2_minus_Phospho_minus_D_minus_glycerate" name="2-Phospho-D-glycerate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_alpha__minus_D_minus_Glucose_space_6_minus_phosphate" name="alpha-D-Glucose 6-phosphate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_beta__minus_D_minus_Glucose_space_6_minus_phosphate" name="beta-D-Glucose 6-phosphate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_beta__minus_D_minus_Fructose_space_6_minus_phosphate" name="beta-D-Fructose 6-phosphate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_beta__minus_D_minus_Fructose_space_1_space_6_minus_bisphosphate" name="beta-D-Fructose 1,6-bisphosphate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Enzyme_space_N6_minus__space_lipoyl_space_lysine" name="Enzyme N6-(lipoyl)lysine" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Enzyme_space_N6_minus__space_dihydrolipoyl_space_lysine" name="Enzyme N6-(dihydrolipoyl)lysine" compartment="uVol" initialAmount="0.0">
+			</species>
+		</listOfSpecies>
+		<listOfReactions>
+			<reaction id="R04779" name="R04779" reversible="false">
+				<listOfReactants>
+					<speciesReference species="ATP">
+					</speciesReference>
+					<speciesReference species="_beta__minus_D_minus_Fructose_space_6_minus_phosphate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="ADP">
+					</speciesReference>
+					<speciesReference species="_beta__minus_D_minus_Fructose_space_1_space_6_minus_bisphosphate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E2_space_7_space_1_space_11"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R03321" name="R03321" reversible="true">
+				<listOfReactants>
+					<speciesReference species="_beta__minus_D_minus_Glucose_space_6_minus_phosphate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_beta__minus_D_minus_Fructose_space_6_minus_phosphate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E5_space_3_space_1_space_9"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01015" name="R01015" reversible="true">
+				<listOfReactants>
+					<speciesReference species="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="Glycerone_space_phosphate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E5_space_3_space_1_space_1"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01518" name="R01518" reversible="true">
+				<listOfReactants>
+					<speciesReference species="_space_2_minus_Phospho_minus_D_minus_glycerate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_space_3_minus_Phospho_minus_D_minus_glycerate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E5_space_4_space_2_space_1"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01070" name="R01070" reversible="true">
+				<listOfReactants>
+					<speciesReference species="_beta__minus_D_minus_Fructose_space_1_space_6_minus_bisphosphate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="Glycerone_space_phosphate">
+					</speciesReference>
+					<speciesReference species="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E4_space_1_space_2_space_13"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R02739" name="R02739" reversible="true">
+				<listOfReactants>
+					<speciesReference species="_alpha__minus_D_minus_Glucose_space_6_minus_phosphate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_beta__minus_D_minus_Glucose_space_6_minus_phosphate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E5_space_3_space_1_space_9"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R02740" name="R02740" reversible="true">
+				<listOfReactants>
+					<speciesReference species="_alpha__minus_D_minus_Glucose_space_6_minus_phosphate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_beta__minus_D_minus_Fructose_space_6_minus_phosphate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E5_space_3_space_1_space_9"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R07618" name="R07618" reversible="true">
+				<listOfReactants>
+					<speciesReference species="NAD_plus_">
+					</speciesReference>
+					<speciesReference species="Enzyme_space_N6_minus__space_dihydrolipoyl_space_lysine">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="NADH">
+					</speciesReference>
+					<speciesReference species="H_plus_">
+					</speciesReference>
+					<speciesReference species="Enzyme_space_N6_minus__space_lipoyl_space_lysine">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E1_space_8_space_1_space_4"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01512" name="R01512" reversible="true">
+				<listOfReactants>
+					<speciesReference species="ATP">
+					</speciesReference>
+					<speciesReference species="_space_3_minus_Phospho_minus_D_minus_glycerate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="ADP">
+					</speciesReference>
+					<speciesReference species="_space_3_minus_Phospho_minus_D_minus_glyceroyl_space_phosphate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E2_space_7_space_2_space_3"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R00658" name="R00658" reversible="true">
+				<listOfReactants>
+					<speciesReference species="_space_2_minus_Phospho_minus_D_minus_glycerate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="H2O">
+					</speciesReference>
+					<speciesReference species="Phosphoenolpyruvate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E4_space_2_space_1_space_11"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R00235" name="R00235" reversible="true">
+				<listOfReactants>
+					<speciesReference species="ATP">
+					</speciesReference>
+					<speciesReference species="CoA">
+					</speciesReference>
+					<speciesReference species="Acetate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="Pyrophosphate">
+					</speciesReference>
+					<speciesReference species="AMP">
+					</speciesReference>
+					<speciesReference species="Acetyl_minus_CoA">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E6_space_2_space_1_space_1"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01061" name="R01061" reversible="true">
+				<listOfReactants>
+					<speciesReference species="NAD_plus_">
+					</speciesReference>
+					<speciesReference species="Orthophosphate">
+					</speciesReference>
+					<speciesReference species="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="NADH">
+					</speciesReference>
+					<speciesReference species="H_plus_">
+					</speciesReference>
+					<speciesReference species="_space_3_minus_Phospho_minus_D_minus_glyceroyl_space_phosphate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E1_space_2_space_1_space_12"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R00710" name="R00710" reversible="true">
+				<listOfReactants>
+					<speciesReference species="H2O">
+					</speciesReference>
+					<speciesReference species="NAD_plus_">
+					</speciesReference>
+					<speciesReference species="Acetaldehyde">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="NADH">
+					</speciesReference>
+					<speciesReference species="Acetate">
+					</speciesReference>
+					<speciesReference species="H_plus_">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E1_space_2_space_1_space_3"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R00754" name="R00754" reversible="true">
+				<listOfReactants>
+					<speciesReference species="NAD_plus_">
+					</speciesReference>
+					<speciesReference species="Ethanol">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="NADH">
+					</speciesReference>
+					<speciesReference species="H_plus_">
+					</speciesReference>
+					<speciesReference species="Acetaldehyde">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E1_space_1_space_1_space_1"/>
+				</listOfModifiers>
+			</reaction>
+		</listOfReactions>
+	</model>
+</sbml>

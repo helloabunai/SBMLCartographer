@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" version="z" level="2"
+      xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+	<model id="aae00010" name="aae00010">
+		<annotation>
+			<celldesigner:modelVersion>2.5</celldesigner:modelVersion>
+			<celldesigner:modelDisplay sizeX="786" sizeY="1177"/>
+			<celldesigner:listOfCompartmentAliases>
+				<celldesigner:compartmentAlias id="ca1" compartment="uVol">
+					<celldesigner:class>SQUARE</celldesigner:class>
+					<celldesigner:bounds x="10.0" y="10.0" w="766" h="1157" />
+					<celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
+					<celldesigner:paint color="ffcccc00" scheme="Color" />
+				</celldesigner:compartmentAlias>
+			</celldesigner:listOfCompartmentAliases>
+			<celldesigner:listOfSpeciesAliases>
+				<celldesigner:speciesAlias id="e0" species="E1_space_2_space_1_space_3" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="198" y="1010" w="64" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="188" y="1000" />
+						<celldesigner:boxSize width="64" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e1" species="E1_space_8_space_1_space_4" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="338" y="919" w="64" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="328" y="909" />
+						<celldesigner:boxSize width="64" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e2" species="E1_space_1_space_1_space_1" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="338" y="950" w="64" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="328" y="940" />
+						<celldesigner:boxSize width="64" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e3" species="E5_space_3_space_1_space_1" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="352" y="457" w="64" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="342" y="447" />
+						<celldesigner:boxSize width="64" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e4" species="E5_space_3_space_1_space_9" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="360" y="281" w="64" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="350" y="271" />
+						<celldesigner:boxSize width="64" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e5" species="E5_space_3_space_1_space_9" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="404" y="322" w="64" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="394" y="312" />
+						<celldesigner:boxSize width="64" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e6" species="E5_space_3_space_1_space_9" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="560" y="285" w="64" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="550" y="275" />
+						<celldesigner:boxSize width="64" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e7" species="E4_space_1_space_2_space_13" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="560" y="411" w="72" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="550" y="401" />
+						<celldesigner:boxSize width="72" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e8" species="E2_space_7_space_2_space_3" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="560" y="561" w="64" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="550" y="551" />
+						<celldesigner:boxSize width="64" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e9" species="E5_space_4_space_2_space_1" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="560" y="620" w="64" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="550" y="610" />
+						<celldesigner:boxSize width="64" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e10" species="E4_space_2_space_1_space_11" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="560" y="677" w="72" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="550" y="667" />
+						<celldesigner:boxSize width="72" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e11" species="E1_space_2_space_1_space_12" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="563" y="495" w="72" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="553" y="485" />
+						<celldesigner:boxSize width="72" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e12" species="E2_space_7_space_1_space_11" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="591" y="354" w="72" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="581" y="344" />
+						<celldesigner:boxSize width="72" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="e13" species="E6_space_2_space_1_space_1" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="129" y="908" w="64" h="15.0"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="119" y="898" />
+						<celldesigner:boxSize width="64" height="15.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccff66" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c0" species="Acetate" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="152" y="971" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="142" y="961" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c1" species="Ethanol" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="259" y="977" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="249" y="967" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c2" species="Acetyl_minus_CoA" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="265" y="820" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="255" y="810" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c3" species="Glycerone_space_phosphate" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="301" y="465" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="291" y="455" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c4" species="Enzyme_space_N6_minus__space_dihydrolipoyl_space_lysine" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="305" y="927" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="295" y="917" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c5" species="_beta__minus_D_minus_Glucose_space_6_minus_phosphate" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="358" y="330" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="348" y="320" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c6" species="Enzyme_space_N6_minus__space_lipoyl_space_lysine" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="408" y="927" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="398" y="917" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c7" species="Acetaldehyde" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="472" y="977" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="462" y="967" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c8" species="_alpha__minus_D_minus_Glucose_space_6_minus_phosphate" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="582" y="253" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="572" y="243" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c9" species="_beta__minus_D_minus_Fructose_space_6_minus_phosphate" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="582" y="336" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="572" y="326" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c10" species="_beta__minus_D_minus_Fructose_space_1_space_6_minus_bisphosphate" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="582" y="386" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="572" y="376" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c11" species="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="582" y="468" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="572" y="458" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c12" species="_space_3_minus_Phospho_minus_D_minus_glyceroyl_space_phosphate" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="582" y="538" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="572" y="528" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c13" species="_space_3_minus_Phospho_minus_D_minus_glycerate" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="582" y="599" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="572" y="589" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c14" species="_space_2_minus_Phospho_minus_D_minus_glycerate" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="582" y="657" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="572" y="647" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+				<celldesigner:speciesAlias id="c15" species="Phosphoenolpyruvate" compartmentAlias="ca1">
+					<celldesigner:activity>inactive</celldesigner:activity>
+					<celldesigner:bounds x="582" y="720" w="54" h="18"/>
+					<celldesigner:view state="usual" />
+					<celldesigner:usualView>
+						<celldesigner:innerPosition x="572" y="710" />
+						<celldesigner:boxSize width="54" height="18" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="ffccffcc" scheme="Color" />
+					</celldesigner:usualView>
+					<celldesigner:briefView>
+						<celldesigner:innerPosition x="0.0" y="0.0" />
+						<celldesigner:boxSize width="80.0" height="60.0" />
+						<celldesigner:singleLine width="1.0" />
+						<celldesigner:paint color="3fff0000" scheme="Color" />
+					</celldesigner:briefView>
+				</celldesigner:speciesAlias>
+			</celldesigner:listOfSpeciesAliases>
+			<celldesigner:listOfProteins>
+				<celldesigner:protein id="p0" type="GENERIC" name="E1_space_2_space_1_space_3">
+				</celldesigner:protein>
+				<celldesigner:protein id="p1" type="GENERIC" name="E1_space_8_space_1_space_4">
+				</celldesigner:protein>
+				<celldesigner:protein id="p2" type="GENERIC" name="E1_space_1_space_1_space_1">
+				</celldesigner:protein>
+				<celldesigner:protein id="p3" type="GENERIC" name="E5_space_3_space_1_space_1">
+				</celldesigner:protein>
+				<celldesigner:protein id="p4" type="GENERIC" name="E5_space_3_space_1_space_9">
+				</celldesigner:protein>
+				<celldesigner:protein id="p5" type="GENERIC" name="E4_space_1_space_2_space_13">
+				</celldesigner:protein>
+				<celldesigner:protein id="p6" type="GENERIC" name="E2_space_7_space_2_space_3">
+				</celldesigner:protein>
+				<celldesigner:protein id="p7" type="GENERIC" name="E5_space_4_space_2_space_1">
+				</celldesigner:protein>
+				<celldesigner:protein id="p8" type="GENERIC" name="E4_space_2_space_1_space_11">
+				</celldesigner:protein>
+				<celldesigner:protein id="p9" type="GENERIC" name="E1_space_2_space_1_space_12">
+				</celldesigner:protein>
+				<celldesigner:protein id="p10" type="GENERIC" name="E2_space_7_space_1_space_11">
+				</celldesigner:protein>
+				<celldesigner:protein id="p11" type="GENERIC" name="E6_space_2_space_1_space_1">
+				</celldesigner:protein>
+			</celldesigner:listOfProteins>
+		</annotation>
+		<listOfCompartments>
+			<compartment id="default" name="default" size="1.0" />
+			<compartment id="uVol" name="uVol" size="1.0" outside="default" />
+		</listOfCompartments>
+		<listOfSpecies>
+			<species id="E1_space_2_space_1_space_3" name="1.2.1.3" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p0</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R00710"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E1_space_8_space_1_space_4" name="1.8.1.4" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p1</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R07618"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E1_space_1_space_1_space_1" name="1.1.1.1" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p2</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R00754"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E5_space_3_space_1_space_1" name="5.3.1.1" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p3</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R01015"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E5_space_3_space_1_space_9" name="5.3.1.9" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p4</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R02740"/>
+						<celldesigner:catalyzed reaction="R02739"/>
+						<celldesigner:catalyzed reaction="R03321"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E4_space_1_space_2_space_13" name="4.1.2.13" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p5</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R01070"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E2_space_7_space_2_space_3" name="2.7.2.3" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p6</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R01512"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E5_space_4_space_2_space_1" name="5.4.2.1" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p7</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R01518"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E4_space_2_space_1_space_11" name="4.2.1.11" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p8</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R00658"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E1_space_2_space_1_space_12" name="1.2.1.12" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p9</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R01061"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E2_space_7_space_1_space_11" name="2.7.1.11" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p10</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R04779"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="E6_space_2_space_1_space_1" name="6.2.1.1" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>PROTEIN</celldesigner:class>
+						<celldesigner:proteinReference>p11</celldesigner:proteinReference>
+					</celldesigner:speciesIdentity>
+					<celldesigner:listOfCatalyzedReactions>
+						<celldesigner:catalyzed reaction="R00235"/>
+					</celldesigner:listOfCatalyzedReactions>
+				</annotation>
+			</species>
+			<species id="Acetate" name="Acetate" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>Acetate</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="Ethanol" name="Ethanol" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>Ethanol</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="Acetyl_minus_CoA" name="Acetyl-CoA" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>Acetyl_minus_CoA</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="Glycerone_space_phosphate" name="Glycerone phosphate" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>Glycerone_space_phosphate</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="Enzyme_space_N6_minus__space_dihydrolipoyl_space_lysine" name="Enzyme N6-(dihydrolipoyl)lysine" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>Enzyme_space_N6_minus__space_dihydrolipoyl_space_lysine</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="_beta__minus_D_minus_Glucose_space_6_minus_phosphate" name="beta-D-Glucose 6-phosphate" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>_beta__minus_D_minus_Glucose_space_6_minus_phosphate</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="Enzyme_space_N6_minus__space_lipoyl_space_lysine" name="Enzyme N6-(lipoyl)lysine" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>Enzyme_space_N6_minus__space_lipoyl_space_lysine</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="Acetaldehyde" name="Acetaldehyde" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>Acetaldehyde</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="_alpha__minus_D_minus_Glucose_space_6_minus_phosphate" name="alpha-D-Glucose 6-phosphate" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>_alpha__minus_D_minus_Glucose_space_6_minus_phosphate</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="_beta__minus_D_minus_Fructose_space_6_minus_phosphate" name="beta-D-Fructose 6-phosphate" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>_beta__minus_D_minus_Fructose_space_6_minus_phosphate</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="_beta__minus_D_minus_Fructose_space_1_space_6_minus_bisphosphate" name="beta-D-Fructose 1,6-bisphosphate" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>_beta__minus_D_minus_Fructose_space_1_space_6_minus_bisphosphate</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal" name="(2R)-2-Hydroxy-3-(phosphonooxy)-propanal" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="_space_3_minus_Phospho_minus_D_minus_glyceroyl_space_phosphate" name="3-Phospho-D-glyceroyl phosphate" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>_space_3_minus_Phospho_minus_D_minus_glyceroyl_space_phosphate</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="_space_3_minus_Phospho_minus_D_minus_glycerate" name="3-Phospho-D-glycerate" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>_space_3_minus_Phospho_minus_D_minus_glycerate</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="_space_2_minus_Phospho_minus_D_minus_glycerate" name="2-Phospho-D-glycerate" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>_space_2_minus_Phospho_minus_D_minus_glycerate</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+			<species id="Phosphoenolpyruvate" name="Phosphoenolpyruvate" compartment="uVol" initialAmount="0.0">
+				<annotation>
+					<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+					<celldesigner:speciesIdentity>
+						<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+						<celldesigner:name>Phosphoenolpyruvate</celldesigner:name>
+					</celldesigner:speciesIdentity>
+				</annotation>
+			</species>
+		</listOfSpecies>
+		<listOfReactions>
+			<reaction id="R04779" name="R04779" reversible="false">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R04779</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="_beta__minus_D_minus_Fructose_space_6_minus_phosphate" alias="c9"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct spies="_beta__minus_D_minus_Fructose_space_1_space_6_minus_bisphosphate" alias="c10"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E2_space_7_space_1_space_11" aliases="e12" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E2_space_7_space_1_space_11" alias="e12">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="_beta__minus_D_minus_Fructose_space_6_minus_phosphate">
+						<annotation>
+							<celldesigner:alias>c9</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_beta__minus_D_minus_Fructose_space_1_space_6_minus_bisphosphate">
+						<annotation>
+							<celldesigner:alias>c10</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E2_space_7_space_1_space_11">
+						<annotation>
+							<celldesigner:alias>e12</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R03321" name="R03321" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R03321</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="_beta__minus_D_minus_Glucose_space_6_minus_phosphate" alias="c5"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="_beta__minus_D_minus_Fructose_space_6_minus_phosphate" alias="c9"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E5_space_3_space_1_space_9" aliases="e5" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E5_space_3_space_1_space_9" alias="e5">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="_beta__minus_D_minus_Glucose_space_6_minus_phosphate">
+						<annotation>
+							<celldesigner:alias>c5</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_beta__minus_D_minus_Fructose_space_6_minus_phosphate">
+						<annotation>
+							<celldesigner:alias>c9</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E5_space_3_space_1_space_9">
+						<annotation>
+							<celldesigner:alias>e5</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01015" name="R01015" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R01015</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal" alias="c11"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="Glycerone_space_phosphate" alias="c3"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E5_space_3_space_1_space_1" aliases="e3" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E5_space_3_space_1_space_1" alias="e3">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal">
+						<annotation>
+							<celldesigner:alias>c11</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="Glycerone_space_phosphate">
+						<annotation>
+							<celldesigner:alias>c3</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E5_space_3_space_1_space_1">
+						<annotation>
+							<celldesigner:alias>e3</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01518" name="R01518" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R01518</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="_space_2_minus_Phospho_minus_D_minus_glycerate" alias="c14"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="_space_3_minus_Phospho_minus_D_minus_glycerate" alias="c13"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E5_space_4_space_2_space_1" aliases="e9" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E5_space_4_space_2_space_1" alias="e9">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="_space_2_minus_Phospho_minus_D_minus_glycerate">
+						<annotation>
+							<celldesigner:alias>c14</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_space_3_minus_Phospho_minus_D_minus_glycerate">
+						<annotation>
+							<celldesigner:alias>c13</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E5_space_4_space_2_space_1">
+						<annotation>
+							<celldesigner:alias>e9</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01070" name="R01070" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R01070</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="_beta__minus_D_minus_Fructose_space_1_space_6_minus_bisphosphate" alias="c10"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal" alias="c11"/>
+					</celldesigner:baseProducts>
+					<celldesigner:listOfProductLinks>
+						<celldesigner:productLink product="Glycerone_space_phosphate" alias="c3" targetLineIndex="-1,0"/>
+					</celldesigner:listOfProductLinks>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E4_space_1_space_2_space_13" aliases="e7" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E4_space_1_space_2_space_13" alias="e7">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="_beta__minus_D_minus_Fructose_space_1_space_6_minus_bisphosphate">
+						<annotation>
+							<celldesigner:alias>c10</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal">
+						<annotation>
+							<celldesigner:alias>c11</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+					<speciesReference species="Glycerone_space_phosphate">
+						<annotation>
+							<celldesigner:alias>c3</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E4_space_1_space_2_space_13">
+						<annotation>
+							<celldesigner:alias>e7</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R02739" name="R02739" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R02739</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="_alpha__minus_D_minus_Glucose_space_6_minus_phosphate" alias="c8"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="_beta__minus_D_minus_Glucose_space_6_minus_phosphate" alias="c5"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E5_space_3_space_1_space_9" aliases="e4" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E5_space_3_space_1_space_9" alias="e4">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="_alpha__minus_D_minus_Glucose_space_6_minus_phosphate">
+						<annotation>
+							<celldesigner:alias>c8</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_beta__minus_D_minus_Glucose_space_6_minus_phosphate">
+						<annotation>
+							<celldesigner:alias>c5</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E5_space_3_space_1_space_9">
+						<annotation>
+							<celldesigner:alias>e4</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R02740" name="R02740" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R02740</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="_alpha__minus_D_minus_Glucose_space_6_minus_phosphate" alias="c8"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="_beta__minus_D_minus_Fructose_space_6_minus_phosphate" alias="c9"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E5_space_3_space_1_space_9" aliases="e6" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E5_space_3_space_1_space_9" alias="e6">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="_alpha__minus_D_minus_Glucose_space_6_minus_phosphate">
+						<annotation>
+							<celldesigner:alias>c8</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_beta__minus_D_minus_Fructose_space_6_minus_phosphate">
+						<annotation>
+							<celldesigner:alias>c9</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E5_space_3_space_1_space_9">
+						<annotation>
+							<celldesigner:alias>e6</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R07618" name="R07618" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R07618</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="Enzyme_space_N6_minus__space_dihydrolipoyl_space_lysine" alias="c4"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="Enzyme_space_N6_minus__space_lipoyl_space_lysine" alias="c6"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E1_space_8_space_1_space_4" aliases="e1" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E1_space_8_space_1_space_4" alias="e1">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="Enzyme_space_N6_minus__space_dihydrolipoyl_space_lysine">
+						<annotation>
+							<celldesigner:alias>c4</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="Enzyme_space_N6_minus__space_lipoyl_space_lysine">
+						<annotation>
+							<celldesigner:alias>c6</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E1_space_8_space_1_space_4">
+						<annotation>
+							<celldesigner:alias>e1</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01512" name="R01512" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R01512</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="_space_3_minus_Phospho_minus_D_minus_glycerate" alias="c13"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="_space_3_minus_Phospho_minus_D_minus_glyceroyl_space_phosphate" alias="c12"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E2_space_7_space_2_space_3" aliases="e8" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E2_space_7_space_2_space_3" alias="e8">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="_space_3_minus_Phospho_minus_D_minus_glycerate">
+						<annotation>
+							<celldesigner:alias>c13</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_space_3_minus_Phospho_minus_D_minus_glyceroyl_space_phosphate">
+						<annotation>
+							<celldesigner:alias>c12</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E2_space_7_space_2_space_3">
+						<annotation>
+							<celldesigner:alias>e8</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R00658" name="R00658" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R00658</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="_space_2_minus_Phospho_minus_D_minus_glycerate" alias="c14"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="Phosphoenolpyruvate" alias="c15"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E4_space_2_space_1_space_11" aliases="e10" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E4_space_2_space_1_space_11" alias="e10">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="_space_2_minus_Phospho_minus_D_minus_glycerate">
+						<annotation>
+							<celldesigner:alias>c14</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="Phosphoenolpyruvate">
+						<annotation>
+							<celldesigner:alias>c15</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E4_space_2_space_1_space_11">
+						<annotation>
+							<celldesigner:alias>e10</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R00235" name="R00235" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R00235</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="Acetate" alias="c0"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="Acetyl_minus_CoA" alias="c2"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E6_space_2_space_1_space_1" aliases="e13" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E6_space_2_space_1_space_1" alias="e13">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="Acetate">
+						<annotation>
+							<celldesigner:alias>c0</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="Acetyl_minus_CoA">
+						<annotation>
+							<celldesigner:alias>c2</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E6_space_2_space_1_space_1">
+						<annotation>
+							<celldesigner:alias>e13</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01061" name="R01061" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R01061</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal" alias="c11"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="_space_3_minus_Phospho_minus_D_minus_glyceroyl_space_phosphate" alias="c12"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E1_space_2_space_1_space_12" aliases="e11" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E1_space_2_space_1_space_12" alias="e11">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="_space_2R_space__minus_2_minus_Hydroxy_minus_3_minus__space_phosphonooxy_space__minus_propanal">
+						<annotation>
+							<celldesigner:alias>c11</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_space_3_minus_Phospho_minus_D_minus_glyceroyl_space_phosphate">
+						<annotation>
+							<celldesigner:alias>c12</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E1_space_2_space_1_space_12">
+						<annotation>
+							<celldesigner:alias>e11</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R00710" name="R00710" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R00710</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="Acetaldehyde" alias="c7"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="Acetate" alias="c0"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E1_space_2_space_1_space_3" aliases="e0" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E1_space_2_space_1_space_3" alias="e0">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="Acetaldehyde">
+						<annotation>
+							<celldesigner:alias>c7</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="Acetate">
+						<annotation>
+							<celldesigner:alias>c0</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E1_space_2_space_1_space_3">
+						<annotation>
+							<celldesigner:alias>e0</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R00754" name="R00754" reversible="true">
+				<annotation>
+					<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+					<celldesigner:name>R00754</celldesigner:name>
+					<celldesigner:baseReactants>
+						<celldesigner:baseReactant species="Ethanol" alias="c1"/>
+					</celldesigner:baseReactants>
+					<celldesigner:baseProducts>
+						<celldesigner:baseProduct species="Acetaldehyde" alias="c7"/>
+					</celldesigner:baseProducts>
+					<celldesigner:connectScheme connectPolicy="direct">
+						<celldesigner:listOfLineDirection>
+							<celldesigner:lineDirection index="0" value="unknown"/>
+						</celldesigner:listOfLineDirection>
+					</celldesigner:connectScheme>
+					<celldesigner:line width="1.0" color="ff000000" />
+					<celldesigner:listOfModification>
+						<celldesigner:modification type="CATALYSIS" modifiers="E1_space_1_space_1_space_1" aliases="e2" targetLineIndex="-1,0" />
+						<celldesigner:connectScheme connectPolicy="direct">
+							<celldesigner:listOfLineDirection>
+								<celldesigner:lineDirection index="0" value="unknown"/>
+							</celldesigner:listOfLineDirection>
+						</celldesigner:connectScheme>
+						<celldesigner:linkTarget species="E1_space_1_space_1_space_1" alias="e2">
+						</celldesigner:linkTarget>
+					</celldesigner:listOfModification>
+				</annotation>
+				<listOfReactants>
+					<speciesReference species="Ethanol">
+						<annotation>
+							<celldesigner:alias>c1</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="Acetaldehyde">
+						<annotation>
+							<celldesigner:alias>c7</celldesigner:alias>
+						</annotation>
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E1_space_1_space_1_space_1">
+						<annotation>
+							<celldesigner:alias>e2</celldesigner:alias>
+						</annotation>
+					</modifierSpeciesReference>
+				</listOfModifiers>
+			</reaction>
+		</listOfReactions>
+	</model>
+</sbml>
