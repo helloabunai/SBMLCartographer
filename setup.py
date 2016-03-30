@@ -1,8 +1,3 @@
-"""A setuptools based setup module.
-GenoCall minipackage installation!!
-I have little idea what i'm doing!!
-"""
-
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
 from codecs import open
